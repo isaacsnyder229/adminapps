@@ -1,75 +1,438 @@
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">Timestamp</th>
-<th title="Field #2">Xbox Name/IGN</th>
-<th title="Field #3">Discord Name (e.g., Name#0000)</th>
-<th title="Field #4">Age</th>
-<th title="Field #5">Time Zone</th>
-<th title="Field #6">Have you ever been staff on another server, realm, or community?</th>
-<th title="Field #7">If yes, list your roles, responsibilities, and duration. Required if Yes</th>
-<th title="Field #8">How long have you been playing Minecraft?</th>
-<th title="Field #9">Have you played as staff on a Skygen before?</th>
-<th title="Field #10">If yes, describe your experience</th>
-<th title="Field #11">How many hours per day/week can you be active?</th>
-<th title="Field #12">When are you usually available?</th>
-<th title="Field #13">Do you prefer specific days for moderation?</th>
-<th title="Field #14">What would you do if two players were arguing and insulting each other in chat?</th>
-<th title="Field #15">A player is suspected of hacking but denies it. What steps would you take?</th>
-<th title="Field #16">What would you do if a friend broke the rules while you were online?</th>
-<th title="Field #17">Explain the difference between: An warning, Mute, Kick, and Ban</th>
-<th title="Field #18">What would you do if a player accused staff of abusing powers?</th>
-<th title="Field #19">Why do you want to be an Admin on Galactic Network?</th>
-<th title="Field #20">What makes you a good fit for the staff team?</th>
-<th title="Field #21">Describe a situation where you stayed calm during conflict.</th>
-<th title="Field #22">How would you handle a player who is new and confused to the server?</th>
-<th title="Field #23">How mature would you rate yourself (1–10) and why?</th>
-<th title="Field #24">Do you have any skills that could help the realm?<br/>(Building, command blocks, moderation, hosting events, designing, etc.)</th>
-<th title="Field #25">Are you willing to help train or guide future staff members?</th>
-<th title="Field #26">Give one idea you have to improve Galactic Network.</th>
-<th title="Field #27">Have you ever been banned from a server/realm before?</th>
-<th title="Field #28">If yes, explain what happened.</th>
-<th title="Field #29">Do you understand that abusing admin powers will result in instant demotion and ban?</th>
-<th title="Field #30">Are you okay with following staff rules even if you disagree with them?</th>
-<th title="Field #31">A player reports another for stealing items, but there’s no proof. How do you handle it?</th>
-<th title="Field #32">You notice a new staff member giving unfair warnings. What is your approach?</th>
-<th title="Field #33">Multiple players are griefing a section of the realm. You’re online alone. How do you respond?</th>
-<th title="Field #34">You find out that a long-time player is exploiting a server bug. How would you deal with it?</th>
-<th title="Field #35">Anything else you want us to know?</th>
-</tr></thead>
-<tbody><tr>
-<td>2025/11/30 9:24:13 AM CST</td>
-<td>Clavvix</td>
-<td>Clavvix</td>
-<td align="right">13</td>
-<td>MST</td>
-<td>Yes</td>
-<td>Owner, 6 months </td>
-<td>About 5 years</td>
-<td>Yes</td>
-<td>Well I owned the server and it was really fun running the actual skygen.</td>
-<td>5+ weekdays, 8+ weekends</td>
-<td>Night</td>
-<td>Sunday</td>
-<td>First asses the situation to see why they are arguing. Then if they happen to be breaking rules either both or one I will give them the correct punishment. If they are just arguing and not breaking rules I would ask them to just stop spamming chat.</td>
-<td>Watch them for a while to see if they are hacking by watching while invisible.</td>
-<td>See what rule they broke. Then server the proper punishment</td>
-<td>Mute = Has been saying Profanity in chat but should be allowed to still play, Kick = You need to get booted real fast since u are being an issue and that will show you staff don&#39;t play around, Ban 0= You have broken many rules and affecting people’s quality while hey play.</td>
-<td>Ask them for a clip and then get there name. I would then go on my Alt to watch them</td>
-<td>It seems like a fun server and I wanna see the behind the scenes</td>
-<td>Ive owned a successful skygen before</td>
-<td>When multiple people broke the rules in a huge fight in chat and I politely told them if they continue I will be giving them a punishment.</td>
-<td>Show them everything they will need for getting a successful start on the server.</td>
-<td align="right">9</td>
-<td>Moderation, Hosting Events, Hosting Giveaways, Doing what im told.</td>
-<td>Yes</td>
-<td>The plots room is kinda overwhelming so maybe we change it. And add an enchant shop</td>
-<td>No</td>
-<td> </td>
-<td>Yes</td>
-<td>Option 1</td>
-<td>I would watch the one being accused for a while to see if he does it again</td>
-<td>Talk to the owner and clip the situation</td>
-<td>First tell them to stop if they don’t listen kick and let hem join back if they continue kick on repeating command block untill owner can be on </td>
-<td>Replrt the situation to a higher role on the staff team</td>
-<td>I love your Skygen and I would love to be a Staff.</td>
-</tr>
-</tbody></table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Network Staff Applications</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+            --success-color: #2ecc71;
+            --warning-color: #f39c12;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .applications-table {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            background-color: var(--primary-color);
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e1e1e1;
+            transition: background-color 0.3s;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        
+        .question-category {
+            background-color: var(--light-color);
+            font-weight: bold;
+            color: var(--dark-color);
+        }
+        
+        .personal-info {
+            background-color: #e8f4fc;
+        }
+        
+        .experience {
+            background-color: #e8f6ef;
+        }
+        
+        .availability {
+            background-color: #fef9e7;
+        }
+        
+        .scenario {
+            background-color: #fbeeee;
+        }
+        
+        .attitude {
+            background-color: #f4ecfb;
+        }
+        
+        .response {
+            max-height: 150px;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid var(--secondary-color);
+        }
+        
+        .short-answer {
+            font-weight: 500;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 2px;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .status-yes {
+            background-color: var(--success-color);
+            color: white;
+        }
+        
+        .status-no {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .status-option {
+            background-color: var(--warning-color);
+            color: white;
+        }
+        
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .applications-table {
+                overflow-x: auto;
+            }
+            
+            table {
+                min-width: 800px;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Galactic Network Staff Applications</h1>
+            <p class="subtitle">Review and manage staff applications for your Minecraft server</p>
+        </header>
+        
+        <div class="applications-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Question</th>
+                        <th>Response</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="personal-info">
+                        <td class="question-category">Personal Information</td>
+                        <td>Timestamp</td>
+                        <td class="short-answer">2025/11/30 9:24:13 AM CST</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Personal Information</td>
+                        <td>Xbox Name/IGN</td>
+                        <td class="short-answer">Clavvix</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Personal Information</td>
+                        <td>Discord Name (e.g., Name#0000)</td>
+                        <td class="short-answer">Clavvix</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Personal Information</td>
+                        <td>Age</td>
+                        <td class="short-answer">13</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Personal Information</td>
+                        <td>Time Zone</td>
+                        <td class="short-answer">MST</td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Experience</td>
+                        <td>Have you ever been staff on another server, realm, or community?</td>
+                        <td><span class="status-badge status-yes">Yes</span></td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Experience</td>
+                        <td>If yes, list your roles, responsibilities, and duration. Required if Yes</td>
+                        <td class="response">Owner, 6 months</td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Experience</td>
+                        <td>How long have you been playing Minecraft?</td>
+                        <td class="short-answer">About 5 years</td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Experience</td>
+                        <td>Have you played as staff on a Skygen before?</td>
+                        <td><span class="status-badge status-yes">Yes</span></td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Experience</td>
+                        <td>If yes, describe your experience</td>
+                        <td class="response">Well I owned the server and it was really fun running the actual skygen.</td>
+                    </tr>
+                    <tr class="availability">
+                        <td class="question-category">Availability</td>
+                        <td>How many hours per day/week can you be active?</td>
+                        <td class="short-answer">5+ weekdays, 8+ weekends</td>
+                    </tr>
+                    <tr class="availability">
+                        <td class="question-category">Availability</td>
+                        <td>When are you usually available?</td>
+                        <td class="short-answer">Night</td>
+                    </tr>
+                    <tr class="availability">
+                        <td class="question-category">Availability</td>
+                        <td>Do you prefer specific days for moderation?</td>
+                        <td class="short-answer">Sunday</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>What would you do if two players were arguing and insulting each other in chat?</td>
+                        <td class="response">First asses the situation to see why they are arguing. Then if they happen to be breaking rules either both or one I will give them the correct punishment. If they are just arguing and not breaking rules I would ask them to just stop spamming chat.</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>A player is suspected of hacking but denies it. What steps would you take?</td>
+                        <td class="response">Watch them for a while to see if they are hacking by watching while invisible.</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>What would you do if a friend broke the rules while you were online?</td>
+                        <td class="response">See what rule they broke. Then server the proper punishment</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>Explain the difference between: An warning, Mute, Kick, and Ban</td>
+                        <td class="response">Mute = Has been saying Profanity in chat but should be allowed to still play, Kick = You need to get booted real fast since u are being an issue and that will show you staff don't play around, Ban = You have broken many rules and affecting people's quality while hey play.</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>What would you do if a player accused staff of abusing powers?</td>
+                        <td class="response">Ask them for a clip and then get there name. I would then go on my Alt to watch them</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Attitude & Motivation</td>
+                        <td>Why do you want to be an Admin on Galactic Network?</td>
+                        <td class="response">It seems like a fun server and I wanna see the behind the scenes</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Attitude & Motivation</td>
+                        <td>What makes you a good fit for the staff team?</td>
+                        <td class="response">Ive owned a successful skygen before</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Attitude & Motivation</td>
+                        <td>Describe a situation where you stayed calm during conflict.</td>
+                        <td class="response">When multiple people broke the rules in a huge fight in chat and I politely told them if they continue I will be giving them a punishment.</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Attitude & Motivation</td>
+                        <td>How would you handle a player who is new and confused to the server?</td>
+                        <td class="response">Show them everything they will need for getting a successful start on the server.</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Attitude & Motivation</td>
+                        <td>How mature would you rate yourself (1–10) and why?</td>
+                        <td class="short-answer">9</td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Skills & Contribution</td>
+                        <td>Do you have any skills that could help the realm?<br/>(Building, command blocks, moderation, hosting events, designing, etc.)</td>
+                        <td>
+                            <span class="tag">Moderation</span>
+                            <span class="tag">Hosting Events</span>
+                            <span class="tag">Hosting Giveaways</span>
+                            <span class="tag">Following Instructions</span>
+                        </td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Skills & Contribution</td>
+                        <td>Are you willing to help train or guide future staff members?</td>
+                        <td><span class="status-badge status-yes">Yes</span></td>
+                    </tr>
+                    <tr class="experience">
+                        <td class="question-category">Skills & Contribution</td>
+                        <td>Give one idea you have to improve Galactic Network.</td>
+                        <td class="response">The plots room is kinda overwhelming so maybe we change it. And add an enchant shop</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Background Check</td>
+                        <td>Have you ever been banned from a server/realm before?</td>
+                        <td><span class="status-badge status-no">No</span></td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Background Check</td>
+                        <td>If yes, explain what happened.</td>
+                        <td class="short-answer">-</td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Background Check</td>
+                        <td>Do you understand that abusing admin powers will result in instant demotion and ban?</td>
+                        <td><span class="status-badge status-yes">Yes</span></td>
+                    </tr>
+                    <tr class="personal-info">
+                        <td class="question-category">Background Check</td>
+                        <td>Are you okay with following staff rules even if you disagree with them?</td>
+                        <td><span class="status-badge status-option">Option 1</span></td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>A player reports another for stealing items, but there's no proof. How do you handle it?</td>
+                        <td class="response">I would watch the one being accused for a while to see if he does it again</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>You notice a new staff member giving unfair warnings. What is your approach?</td>
+                        <td class="response">Talk to the owner and clip the situation</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>Multiple players are griefing a section of the realm. You're online alone. How do you respond?</td>
+                        <td class="response">First tell them to stop if they don't listen kick and let hem join back if they continue kick on repeating command block untill owner can be on</td>
+                    </tr>
+                    <tr class="scenario">
+                        <td class="question-category">Scenario Questions</td>
+                        <td>You find out that a long-time player is exploiting a server bug. How would you deal with it?</td>
+                        <td class="response">Replrt the situation to a higher role on the staff team</td>
+                    </tr>
+                    <tr class="attitude">
+                        <td class="question-category">Additional Information</td>
+                        <td>Anything else you want us to know?</td>
+                        <td class="response">I love your Skygen and I would love to be a Staff.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="actions">
+            <button class="btn btn-primary">Approve Application</button>
+            <button class="btn btn-secondary">Request More Information</button>
+            <button class="btn btn-secondary">Reject Application</button>
+        </div>
+        
+        <footer>
+            <p>Galactic Network Staff Applications &copy; 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
